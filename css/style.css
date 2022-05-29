@@ -2734,9 +2734,97 @@ form .form-group label em {
   background-color: #222;
   color: #3a6bb1;
 }
+
+/* PORTFOLIO SLIDER START */
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.split {
+  position: relative;
+  height: 40vh;
+  display: flex;
+  background: #fff;
+}
+.split .screen {
+  position: relative;
+  flex-grow: 2;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  height: 50vh;
+  transition: 0.5s;
+}
+.split:hover .screen {
+  opacity: 0.1;
+}
+.split .screen:hover {
+  flex-grow: 3;
+  opacity: 1;
+}
+.split .screen:nth-child(1) {
+  background: url(../images/PUN/IMG-8939.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.split .screen:nth-child(2) {
+  background: url(../images/PUN/IMG-8940.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.split .screen:nth-child(3) {
+  background: url(../images/PUN/IMG-8942.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.split .screen:nth-child(4) {
+  background: url(../images/PUN/IMG-8943.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.split .screen:nth-child(5) {
+  background: url(../images/PUN/pishin_compressed.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.split .screen .content {
+  position: absolute;
+  margin-top: 200px;
+  width: 45%;
+  height: auto;
+  /* background: #fff; */
+  padding: 10px;
+  box-sizing: border-box;
+  transform: translateX(100%);
+  transition: 0.5s;
+  text-align: justify;
+}
+.split .screen:hover .content {
+  transform: translateX(0);
+  transition-delay: 1s;
+}
+.split .screen .content h2 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #ed363a;
+}
+
+/* PORTFOLIO SLIDER END */
+
 /********************************************************* Static Slider **********************************************************/
 .staticSlider {
-  background: url(../images/banner.jpg) no-repeat top;
+  background: url(../images/pishin2.jpg) no-repeat top;
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
