@@ -5153,7 +5153,7 @@ body {
     background: #145da0;
   }
   .main-menu .navbar-collapse > .navigation {
-    background: #424141;
+    /* background: ; */
   }
   .main-header .header-lower .col-md-5 {
     padding: 0px;
@@ -5317,5 +5317,10 @@ body {
   }
   .sticky-header .logo a img {
     max-width: 70%;
+  }
+}
+@media only screen and (max-width: 1300px) {
+  .portfolio-area {
+    display: none;
   }
 }
