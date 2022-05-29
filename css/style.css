@@ -5319,8 +5319,9 @@ body {
     max-width: 70%;
   }
 }
-@media only screen and (max-width: 1300px) {
+
+/* @media only screen and (min-width: 768px & max-width: 1300px) {
   .portfolio-area {
     display: none;
   }
-}
+} */
