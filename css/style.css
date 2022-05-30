@@ -5325,3 +5325,32 @@ body {
     display: none;
   }
 } */
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 2600px) and (-webkit-min-device-pixel-ratio: 1) {
+  .portfolio-area {
+    display: none;
+  }
+}
+
+@media screen and (min-device-width: 200px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .portfolio-area {
+    display: block;
+  }
+}
+
+/* section .inner-wrap .typoghrapy {
+  display: none;
+} */
+
+/* .mine{
+  display: none;
+} */
+/* .portfolio-inner {
+  display: none;
+} */
+
+@media screen and (min-device-width: 200px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
+  .mine {
+    display: none;
+  }
+}
