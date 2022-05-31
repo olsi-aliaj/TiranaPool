@@ -89,6 +89,7 @@ li {
   margin-left: auto;
 }
 .section-title {
+  padding-top: 70px;
   margin: 0;
   padding-bottom: 30px;
   text-align: center;
@@ -4882,6 +4883,7 @@ body {
   }
   .whychoose-description li {
     margin-top: 0px;
+    margin-left: 50px;
   }
   .main-header .header-top .top-left p {
     font-size: 14px;
@@ -5335,6 +5337,9 @@ body {
 @media screen and (min-device-width: 200px) and (max-device-width: 1200px) and (-webkit-min-device-pixel-ratio: 1) {
   .portfolio-area {
     display: block;
+  }
+  ul .row {
+    display: none;
   }
 }
 
